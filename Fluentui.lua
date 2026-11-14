@@ -4344,7 +4344,7 @@ Components.Window = (function()
 
 		local ImageAsset = Config.Image
 		local hasImage = ImageAsset and type(ImageAsset) == "string" and ImageAsset ~= ""
-		local imageSize = Window.TabWidth - 24
+		local imageSize = 120
 		local topOffset = 0
 
 		local ImageFrame = hasImage and New("ImageLabel", {
